@@ -1,43 +1,27 @@
-## Requirements
+# Demo1App
 
-- Node.js – v12.18.3
-- NPM - v6.14.6
-- Angular CLI - v10.0.8
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.9.
 
-### Node Version Setup
+## Development server
 
-The best way to install a node version is to use `nvm`. Follow the steps described here <https://github.com/creationix/nvm#installation> to install it.
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-Once `nvm` is intalled, you have to run the following command:
+## Code scaffolding
 
-```bash
-nvm install 12.18.3
-```
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-This will install the required `Node.js` version and will setup your node command. You can test if the node version was installed properly with:
+## Build
 
-```bash
-node -v
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-//output
-> v12.18.3
-```
+## Running unit tests
 
-### NPM Version Setup
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-After installing correctly the version of `Node.js` we need to check if we have the correct version of `npm`
+## Running end-to-end tests
 
-```bash
-npm -v
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-//output
-> 6.14.6
-```
+## Further help
 
-### AngularCli Setup
-
-Make sure that the `Node.js` version selected in the console is the `12.18.3`, then run the following to install the required `Angular CLI` version
-
-```bash
-npm install -g @angular/cli@10.0.8
-```
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
