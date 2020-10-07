@@ -1,7 +1,3 @@
-# Demo1App
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.9.
-
 ## Requirements
 
 - Node.js – v12.18.3
